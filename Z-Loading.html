@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <title>ZORGO43</title>
+    <style>
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+
+    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+
+    .slideshow {
+    animation: changeBackground 15s infinite;
+    
+    background-size: cover;
+    background-position: center;
+    }
+    /* Background Images */
+    @keyframes changeBackground {  
+    0% { background-image: url('/z-Ned/1.png'); }
+    33.33% { background-image: url('/z-Ned/2.png'); }
+    66.66% { background-image: url('/z-Ned/3.png'); }
+    100% { background-image: url('/z-Ned/4.png'); }
+    }
+
+
+    
+    </style>
+</head>
+<!-- Audio -->
+<audio autoplay loop id="audio" src="/z-Ned/Basx.mp3"></audio> 
+
+
+<body class="bg-white slideshow">
+    <section id="section1" class="h-screen w-screen flex flex-col justify-center items-center overflow-hidden">
+        <img class="w-48 mb-4" src="../z-Ned/Logo.png" alt="">
+        <a href="#" onclick="showMoreInfo()" class="text-white font-semibold text-center text-sm transition duration-30 opacity-60 hover:text-slate-700">
+            CLICK HERE<br>
+            FOR MORE INFO
+        </a>
+        <p class="absolute bottom-[6%] translate-x-[-50%] left-[50%] overflow-hidden uppercase bottom-2  text-white  font-semibold  text-xs opacity-60 hover:text-white">
+            CLICK SPACE BAR TO PAUSE MUSIC
+        </p>
+
+ 
+        <div class="social-icons">
+            <div class="bg-white w-[2px] h-20 absolute bottom-[23%] translate-x-[-50%] left-[98%] overflow-hidden"></div>
+
+            <a href="https://www.instagram.com/" class="text-white hover:text-gray-300 absolute bottom-[16%] translate-x-[-50%] left-[98%] mb-[15px] text-2xl overflow-hidden " title="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://website" class="text-white hover:text-gray-300 absolute bottom-[11%] translate-x-[-50%] left-[98%]  mb-[15px]  text-2xl overflow-hidden " title="Instagram">
+                <i class="fa-solid fa-scale-balanced"></i>
+            </a>
+            <a href="https://discord.gg/" class="text-white hover:text-gray-300 absolute bottom-[6%] translate-x-[-50%] left-[98%] mb-[15px] text-2xl overflow-hidden " title="Discord">
+                <i class="fab fa-discord"></i>
+            </a>
+
+            <div class="bg-white w-[2px] h-9 absolute bottom-[2%] translate-x-[-50%] left-[98%] overflow-hidden"></div> 
+        </div>
+    </section>
+
+    <section id="section2" class="hidden h-screen w-screen flex flex-col justify-center items-center overflow-hidden">
+        <img class="w-48 mb-4 " src="/z-Ned/Logo.png" alt="">
+        <div class="social-icons">
+            <div class="bg-white w-[2px] h-20 absolute bottom-[23%] translate-x-[-50%] left-[98%] overflow-hidden"></div>
+        
+            <a href="https://www.instagram.com/" class="text-white hover:text-gray-300 absolute bottom-[16%] translate-x-[-50%] left-[98%] mb-[15px] text-2xl overflow-hidden " title="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.yours.com/" class="text-white hover:text-gray-300 absolute bottom-[11%] translate-x-[-50%] left-[98%]  mb-[15px]  text-2xl overflow-hidden " title="Instagram">
+                <i class="fa-solid fa-scale-balanced"></i>
+            </a>
+            <a href="https://discord.gg/" class="text-white hover:text-gray-300 absolute bottom-[6%] translate-x-[-50%] left-[98%] mb-[15px] text-2xl overflow-hidden " title="Discord">
+                <i class="fab fa-discord"></i>
+            </a>
+
+            <div class="bg-white w-[2px] h-9 absolute bottom-[2%] translate-x-[-50%] left-[98%] overflow-hidden"></div> 
+        </div>
+     
+
+
+                <div class="  dark:text-gray-100 container flex flex-col items-center justify-center p-4 mx-auto space-y-8 sm:p-10">
+                    <h1 class=" text-white  text-lg font-semibold  opacity-60 hover:text-white">Our Team</h1>
+                    
+                    <div class="flex flex-row flex-wrap-reverse justify-center ">
+                        
+                        <div class="flex flex-col justify-center m-8 p-6 text-center rounded-xl bg-transparent "> </div> <!-- Blank Use this adjust box -->
+
+                        <div class="flex flex-col justify-center m-8 p-6 text-center rounded-xl bg-gradient-to-b from-transparent to-gray-800 bg-opacity-5 ">
+                            <div class="rounded-full overflow-hidden w-24 h-24 mb-4 bg-center">
+                                <img alt="" class="w-full h-full object-cover" src="/z-Ned/Logo.png">
+                            </div>
+                            <p class="font-semibold text-sm">ZORGO43</p>
+                            <p class="dark:text-gray-400 text-xs">Developer</p>
+                        </div>
+                        <div class="flex flex-col justify-center m-8 p-6 text-center rounded-xl bg-gradient-to-b from-transparent to-gray-800 bg-opacity-5 ">
+                            <div class="rounded-full overflow-hidden w-24 h-24 mb-4 bg-center">
+                                <img alt="" class="w-full h-full object-cover" src="/z-Ned/Logo.png">
+                            </div>
+                            <p class="font-semibold text-sm">ZORGO43</p>
+                            <p class="dark:text-gray-400 text-xs">Developer</p>
+                        </div>
+
+                        <div class="flex flex-col justify-center m-8 p-6 text-center rounded-xl bg-gradient-to-b from-transparent to-gray-800 bg-opacity-5 ">
+                            <div class="rounded-full overflow-hidden w-24 h-24 mb-4 bg-center">
+                                <img alt="" class="w-full h-full object-cover" src="/z-Ned/Logo.png">
+                            </div>
+                            <p class="font-semibold text-sm">ZORGO43</p>
+                            <p class="dark:text-gray-400 text-xs">Developer</p>
+                        </div>
+      
+                        <div class="flex flex-col justify-center m-8 p-6 text-center rounded-xl bg-gradient-to-b from-transparent to-gray-800 bg-opacity-5 ">
+                            <div class="rounded-full overflow-hidden w-24 h-24 mb-4 bg-center">
+                                <img alt="" class="w-full h-full object-cover" src="/z-Ned/Logo.png">
+                            </div>
+                            <p class="font-semibold text-sm">ZORGO43</p>
+                            <p class="dark:text-gray-400 text-xs">Developer</p>
+                        </div>
+                        <div class="flex flex-col justify-center m-8 p-6 text-center rounded-xl bg-gradient-to-b from-transparent to-gray-800 bg-opacity-5 ">
+                            <div class="rounded-full overflow-hidden w-24 h-24 mb-4 bg-center">
+                                <img alt="" class="w-full h-full object-cover" src="/z-Ned/Logo.png">
+                            </div>
+                            <p class="font-semibold text-sm">ZORGO43</p>
+                            <p class="dark:text-gray-400 text-xs">Developer</p>
+                        </div>
+
+                        
+
+
+
+                        
+                        
+                    </div>
+                </div>
+
+        </div>
+
+        <a href="#" onclick="closeMoreInfo()" class="text-white font-bold text-center text-sm transition duration-30 opacity-60 hover:text-white mt-4">
+            <i class="fa-solid fa-circle-xmark fa-xl fa-fade absolute top-[6%] translate-x-[-50%] left-[97%]"></i>
+            
+        </a>
+    </section>
+    <script>
+
+        const audio = document.getElementById('audio');
+        const section1 = document.getElementById('section1');
+        const section2 = document.getElementById('section2');
+
+
+        audio.volume = 0.05;
+
+        document.addEventListener('keydown', function (event) {
+            if (event.code === 'Space') {
+                audio.muted = !audio.muted;
+            }
+        });
+
+        function showMoreInfo() {
+            section1.classList.add('hidden');
+            section2.classList.remove('hidden');
+        }
+
+        function closeMoreInfo() {
+            section2.classList.add('hidden');
+            section1.classList.remove('hidden');
+        }
+
+    </script>
+</body>
+</html>
