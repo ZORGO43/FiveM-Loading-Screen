@@ -3,4 +3,5 @@
 
 Please Config it according to your server and profile
 
-z-loading
+Made by ZORGO43
+Discord- _zorgo | ZORGO#1111
